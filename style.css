@@ -1,0 +1,29 @@
+@font-face {
+    font-family: Roboto;
+    src: url('/font/RobotoFlex-VariableFont_GRAD\,XOPQ\,XTRA\,YOPQ\,YTAS\,YTDE\,YTFI\,YTLC\,YTUC\,opsz\,slnt\,wdth\,wght.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto'
+}
+
+section {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+    background: #222;
+}
+
+.text {
+    position: relative;
+    text-align: center;
+    color: #fff;
+    max-width: 320px;
+    cursor: default;
+}
